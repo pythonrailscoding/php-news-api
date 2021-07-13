@@ -1,5 +1,6 @@
 let theme_dot = document.getElementsByClassName("icm");
 
+// Add themes to LocalStorage
 let theme = localStorage.getItem('theme');
 if (theme === null){
     setTheme("white");
