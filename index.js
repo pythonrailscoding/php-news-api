@@ -2,9 +2,9 @@ let theme_dot = document.getElementsByClassName("icm");
 
 let theme = localStorage.getItem('theme');
 if (theme === null){
-    setTheme("white")
+    setTheme("white");
 } else {
-    setTheme(theme)
+    setTheme(theme);
 }
 
 for (let i = 0; i <= theme_dot.length; i++){
